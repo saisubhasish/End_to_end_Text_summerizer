@@ -1,4 +1,4 @@
-import os
+import os    # template for creating directory in a project
 from pathlib import Path
 import logging
 
