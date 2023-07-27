@@ -13,7 +13,7 @@ torch
 notebook
 boto3    # to deploy the project as CI-CD, for authentication
 mypy-boto3-s3
-python-box==6.0.2    # to access the dict keys directly
+python-box==6.0.2    # to access the dict keys directly, and for box exception
 ensure==1.0.2    # to ensure the data types
 fastapi==0.78.0    # to create a web UI
 uvicorn==0.18.3
