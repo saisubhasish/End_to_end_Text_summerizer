@@ -11,11 +11,11 @@ PyYAML
 matplotlib
 torch
 notebook
-boto3
+boto3    # to deploy the project as CI-CD, for authentication
 mypy-boto3-s3
-python-box==6.0.2
-ensure==1.0.2
-fastapi==0.78.0
+python-box==6.0.2    # to access the dict keys directly
+ensure==1.0.2    # to ensure the data types
+fastapi==0.78.0    # to create a web UI
 uvicorn==0.18.3
 Jinja2==3.1.2
--e .
+-e .    # to create .egg-info file and deploy the library with project
